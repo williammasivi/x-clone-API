@@ -4,6 +4,6 @@ import { getuser } from "../controler/user.controler.js";
 
 const useRouter = Router()
 
-useRouter.get("/use",getuser)
+useRouter.get("/", getuser)
 
 export default useRouter
